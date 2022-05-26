@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- Navbar Start -->
+<nav class="navbar">
+<div class="navbar_center">
+    <span class="nav_menu_icon"><i class="fa-solid fa-bars"></i></span>
+    <div class="navbar_brand">
+        Book <span class="navbar_brand_title">Store</span>
+    </div>
+    <div class="btn_cart">
+        <span class="cart_icon" id="cart_icon">
+            <i class="fas fa-cart-plus"></i>
+        </span>
+        <div class="cart_items">0</div>
+    </div>
+</div>
+</nav>
+<!-- Navbar End -->
+<!-- Hero Section Start -->
+<header class="hero">
+    <div class="banner">
+        <h1 class="banner_title">
+            My Book Store
+        </h1>
+        <button class="btn_banner">Show Now</button>
+    </div>
+</header>
+<!-- Ḥero Section End -->
+
+
+<!-- Products  Start-->
+ <section class="products">
+     <div class="section_title">
+         <h2>Books Collection</h2>
+     </div>
+     <div class="products_center">
+         <!-- Single Product Start -->
+         <article class="product">
+         <div class="img_container">
+             <img src="https://m.media-amazon.com/images/I/81GEhSSrjKL._AC_UY327_FMwebp_QL65_.jpg" alt="drawing-book" class="product-img"/>
+             <button class="btn_bag" data-id="1"> Add To Cart  <i class="fa-solid fa-cart-shopping"></i></button>
+         </div>
+         <h3>Drawing And Colouring Book</h3>
+         <h4><span>₹</span> 249</h4>
+         </article>
+         <!-- Single Product End -->
+     </div>
+ </section>
+ <!-- Products End -->
+
+ <!-- Cart Start -->
+ <div class="cart_overlay" id="cart_overlay">
+     <div class="cart" id="cart">
+         <span class="cart_close">
+             <i class=" far fa-window-close"></i>
+         </span>
+         <h2>Your Cart</h2>
+         <div class="cart_content">
+             <!-- Cart Item -->
+             <div class="cart_details">
+                 <div class="cart_item">
+                 <img src="https://m.media-amazon.com/images/I/81GEhSSrjKL._AC_UY327_FMwebp_QL65_.jpg" alt="drawing-book"/>
+                 </div>
+
+             <div class="description">
+              <h3>Drawing And Colouring Book</h3>
+              <h4><span>₹</span> 249</h4>
+              <span class="remove_item">Remove</span>
+             </div>
+             </div>
+
+             <div class="count">
+             <i class="fa-solid fa-chevron-up"></i>
+             <p class="item_count">1</p>
+             <i class="fa-solid fa-chevron-down"></i>
+             </div>
+             </div>
+          </div>
+         </div>
+ <!-- Cart End -->
+
+<!-- Custom Script -->
+<script src="./scripts/script.js"></script>
+</body>
+</html>
