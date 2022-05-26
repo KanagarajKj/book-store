@@ -1,0 +1,42 @@
+{
+    "items":[
+        {
+            "sys":{"id":"1"},
+            "fields":{
+                "title":"Power of subconscious mind",
+                "price":"249",
+                "image":{"file":{"url":"https://res.cloudinary.com/dzya6yu5p/image/upload/v1653533903/Book%20store/power_iq7mao.webp"}}
+            }
+        },
+        {
+            "sys":{"id":"2"},
+            "fields":{
+                "title":"The divine law of cure",
+                "price":"349",
+                "image":{"file":{"url":"https://res.cloudinary.com/dzya6yu5p/image/upload/v1653533902/Book%20store/the-divine_tqkkog.webp"}}
+            }
+        },
+        {
+            "sys":{"id":"3"},
+            "fields":{
+                "title":"Public Speaking",
+                "price":"199",
+                "image":{"file":{"url":"https://res.cloudinary.com/dzya6yu5p/image/upload/v1653533902/Book%20store/public-speaking_exxxuu.webp"}}
+            }
+        },
+        {
+            "sys":{"id":"4"},
+            "fields":{
+                "title":"India's most fearless",
+                "price":"399",
+                "image":{"file":{"url":"https://res.cloudinary.com/dzya6yu5p/image/upload/v1653533894/Book%20store/army_umlxof.webp"}}
+            }
+        },
+        {
+            "sys":{"id":"5"},
+            "title":"dhoni",
+            "price":"299",
+            "image":{"file":{"url":"https://res.cloudinary.com/dzya6yu5p/image/upload/v1653533894/Book%20store/dhoni_fkkrlr.webp"}}
+        }
+    ]
+}
